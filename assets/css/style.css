@@ -1,0 +1,145 @@
+body    {
+    font-family: 'Anton', sans-serif;
+    /* font-family: 'Open Sans', sans-serif; */
+    padding: 0;
+    margin: 0;
+    color: #000;
+    font-size: 16px;
+}
+
+h1, h2, h3, h4, h5, h6  {
+    padding: 0;
+    margin: 0;
+    text-transform: uppercase;
+}
+h2  {
+    font-size: 50px;
+    margin-bottom: 58px;
+}
+h3  {
+    font-size: 25px;
+    margin-top: 60px;
+    margin-bottom: 25px;
+}
+a   {
+    text-decoration: none;
+    color: #000;
+}
+p   {
+    margin: 0;
+}
+section {
+    padding-top: 113px;
+}
+ul, li  {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+.container  {
+    margin: 0 auto;
+/*позиционирование по центру*/
+    width: 1170px;
+}
+.header {
+    background: url("../image/header-bg.jpg") center center/cover no-repeat;
+    padding-top: 57px;
+    color:#fff;
+    padding-bottom: 320px;
+    /* height: 900px; */
+}
+.header a {
+    color: #fff;
+
+}
+.logo   {
+    margin-right: 69px;
+}
+.menu   {
+    display: flex;
+}
+.menu li a  {
+    text-transform: uppercase;
+    font-size: 14px;
+    letter-spacing: 0.1em;
+}
+.menu li    {
+    margin-right: 40px;
+}
+.tel    {
+    font-size: 17px;
+    text-decoration: none;
+    /*прибить телефон направо*/
+    margin-left: auto;
+    /*расстояние между буквами*/
+    letter-spacing: 0.1em;
+}
+.nav    {
+    display: flex;
+    /*строка меню по центру от лого*/
+    align-items: center;
+}
+.btn    {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    font-size: 17px;
+    letter-spacing: 0.1em;
+    border: 1px solid #FFFFFF;
+    padding: 18px 45px;
+    width: 238px;
+    transition: all .2s ease;
+}
+.btn:hover  {
+    background: #fff;
+    color: #000;
+}
+.offer  {
+    color: #fff;
+    text-transform: uppercase;
+    margin-top: 230px;
+}
+.offer  p   {
+    font-size: 30px;
+    letter-spacing: 0.1em;
+}
+.offer  h1  {
+    font-size: 100px;
+    margin-bottom: 19px;
+    margin-top: -9px;
+    letter-spacing: 0.02em;
+}
+.description    {
+    display: flex;
+    justify-content: space-between;
+
+}
+.description p    {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.62em;
+        /*ровные края у текста*/
+    text-align: justify;
+
+}
+.desc-left, .desc-right {
+    width: 567px;
+}
+.desc-left a:hover, .desc-right a:hover   {
+ text-decoration: underline;
+}
+.gallery    {
+    margin-top: 67px;
+    display: flex;
+    justify-content: space-between;
+}
+.footer_text    {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 14px;
+    display: flex;
+    padding: 144px 0;
+}
+.footer_text p  {
+    margin-right: 67px;
+}
